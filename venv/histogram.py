@@ -1,9 +1,6 @@
 from math import ceil, sqrt, floor
 import numpy as np
 
-
-# класс преобразует входные данные
-# в два массива: [x1 .. xn] и [f^(x1) .. f^(xn)]
 class Histogram:
     def __init__(self, data, discrete=False):
         n = len(data)
